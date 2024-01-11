@@ -4,32 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr.JohnDoe</title>
+    <title>Dentist Clinic</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/452784c4a5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-<header>
-    <div class="logo"><img src="logo_1.png" alt="logo"></div>
-    <div class="name">
-        <h1 id="dentistclinic">Dentist Clinic</h1>
-    </div>
-    <nav>
-        <ul>
-            <li class="left"><a href="https://natamylo.github.io/dentist/index.html">Home</a></li>
-            <li class="left"><a href="https://natamylo.github.io/dentist/services.html">Services</a></li>
-            <li class="left"><a href="https://natamylo.github.io/dentist/team.html">Our Team</a></li>
-            <li class="right"><a href="https://natamylo.github.io/dentist/contact.html">Contact</a></li>
-            <li class="right tlm"><a href="#tlm">(123) 456-700890</a></li>
-        </ul>
-    </nav>
-</header>
+
+
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <img src="./logo_1.png" class="bi me-2" width="" height="70">
+            <use xlink:href="#bootstrap"></use>
+            <span class="fs-4">Dentist Clinic</span>
+        </a>
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample09">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="https://natamylo.github.io/dentist_bootstrap/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="https://natamylo.github.io/dentist_bootstrap/services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://natamylo.github.io/dentist_bootstrap/team.html">Our
+                                Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="https://natamylo.github.io/dentist_bootstrap/contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
     <p></p>
     <div class="team-member">
-        <img src="dentist1.jpg" alt="Dentist 2">
+        <img src="dentist1.jpg" alt="Dentist 2" width="200">
         <h3>Dr. John Doe</h3>
         <p>Certified Dentist</p>
     </div>
